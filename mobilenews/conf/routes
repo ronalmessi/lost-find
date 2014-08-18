@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       		Application.index
+
+
+# mobileAPI - all
+*		/mobileAPI/{action}								mobile.client.MobileController.{action}
+
+# Catch all
+*       /{controller}/{action}                  		{controller}.{action}
