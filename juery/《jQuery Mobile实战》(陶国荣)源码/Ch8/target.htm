@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>开启或禁用AJAX方式打开页面链接</title>
+    <meta name="viewport" content="width=device-width,
+           initial-scale=1" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+</head>
+<body>
+  <div data-role="page" id="page2_1">
+    <div data-role="header">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page2_1" 
+                 class="ui-btn-active">流行</a></li>
+          <li><a href="#page2_2">通俗</a></li>
+        </ul>
+　    </div>
+　  </div>
+　  <div data-role="content">
+	  <p>这是音乐中的流行歌曲页</p>
+　　</div>
+　　<div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+　<div data-role="page" id="page2_2">
+　  <div data-role="header">
+　    <div data-role="navbar">
+　      <ul>
+　        <li><a href="#page2_1">流行</a></li>
+　        <li><a href="#page2_2" 
+　               class="ui-btn-active">通俗</a></li>
+　      </ul>
+　    </div>
+　  </div>
+　  <div data-role="content">
+	  <p>这是音乐中的通俗歌曲页，
+	     <a href="8-8.htm" data-ajax="false">返回</a></p>
+　　</div>
+　　<div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+</body>
+</html>
+

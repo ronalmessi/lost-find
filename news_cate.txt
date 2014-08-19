@@ -1,0 +1,5 @@
+1,关注最新最热的新闻,1,头条,images/icon/1.png,,0,,0
+2,追踪前沿科技,2,科技,images/icon/2.png,,0,,0
+3,探访经济热点,3,经济,images/icon/3.png,,0,,0
+4,浏览最时尚的娱乐资讯,4,娱乐,images/icon/4.png,,0,,0
+5,学习最深远的育人方法,5,教育,images/icon/5.png,,0,,0

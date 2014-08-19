@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>isRelativeUrl()和isAbsoluteUrl()验证方法</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <link  href="Css/7-7.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+    <script src="Js/7-8.js"
+           type="text/javascript"></script>
+</head>
+<body>
+  <div data-role="page" id="page1">
+    <div data-role="header">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page1" 
+                 class="ui-btn-active">相对Url</a></li>
+          <li><a href="#page2">绝对Url</a></li>
+        </ul>
+      </div>
+    </div>
+　　<div class="dchange">
+　　    <div>相对Url：</div><input id="page1-txt" type="text"/>
+　　    <div>验证结果：</div><div class="dtip" id="page1-b""></div>
+　　</div>
+    <div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+　<div data-role="page" id="page2">
+    <div data-role="header">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page1">相对Url</a></li>
+          <li><a href="#page2" 
+                 class="ui-btn-active">绝对Url</a></li>
+        </ul>
+      </div>
+    </div>
+　　<div class="dchange">
+　　    <div>绝对Url：</div><input id="page2-txt" type="text"/>
+　　    <div>转换结果：</div><div class="dtip" id="page2-b"></div>
+　　</div>
+　　<div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+</body>
+</html>
+

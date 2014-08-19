@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile 表单主题</title>
+    <meta name="viewport" content="width=device-width,
+           initial-scale=1" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header"><h1>头部栏</h1></div>
+	<div data-role="content" data-theme="a"> 
+      <label for="txta">文本输出框:</label> 
+      <input type="text" name="txta" id="txta" value=""/> 
+	  <label for="sela">滑动开关:</label> 
+	  <select name="sela" id="sela" data-role="slider"> 
+	     <option value="off">关</option> 
+	     <option value="on">开</option> 
+	  </select> 
+	  <fieldset data-role="controlgroup" data-type="horizontal"> 
+	     <legend>多项复选框:</legend> 
+	     <input type="checkbox" name="chka" id="chka" class="custom" /> 
+		 <label for="chka">b</label> 
+		 <input type="checkbox" name="chkb" id="chkb" class="custom" /> 
+		 <label for="chkb"><em>i</em></label> 
+		 <input type="checkbox" name="chkc" id="chkc" class="custom" /> 
+		 <label for="chkc">u</label>    
+	   </fieldset> 
+	</div>
+    <div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>     
+  </div>
+</body>
+</html>
+

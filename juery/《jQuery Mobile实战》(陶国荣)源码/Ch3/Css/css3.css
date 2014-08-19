@@ -1,0 +1,39 @@
+﻿/*示例3-4 所需添加的样式*/
+.img-spn{text-align:center}
+.img-spn img{border:solid 1px #666;padding:5px}
+
+/*示例3-9 所需添加的样式*/
+.nav-3-9 .ui-btn .ui-btn-inner  
+{
+	padding-top: 40px !important; 
+}
+.nav-3-9 .ui-btn .ui-icon  
+{
+	width: 30px!important; 
+	height: 30px!important; 
+	margin-left: -15px !important; 
+    box-shadow: none!important; 
+    -moz-box-shadow: none!important; 
+    -webkit-box-shadow: none!important; 
+    -webkit-border-radius: 0 !important; 
+    border-radius: 0 !important;
+ }
+.books .ui-icon  
+{
+	background:  url(icons/01.png) 50% 50% no-repeat; 
+	background-size: 18px 26px; 
+}
+.music .ui-icon  
+{
+	background:  url(icons/02.png) 50% 50% no-repeat; 
+	background-size: 15px 24px; 
+}
+.movie .ui-icon  
+{
+	background:  url(icons/03.png) 50% 50% no-repeat; 
+	background-size: 19px 25px; 
+}
+
+/*示例3-12 所需添加的样式*/
+.h60{height:60px}
+

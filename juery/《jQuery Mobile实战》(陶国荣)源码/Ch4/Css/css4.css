@@ -1,0 +1,21 @@
+﻿/*示例4-3 所需添加的样式*/
+#number
+{
+	width:60px
+}
+/*示例4-4 所需添加的样式*/
+#spnPrev
+{
+	margin-top:10px;	
+	width:100px;
+	height:70px;
+	border:solid 1px #ccc;
+	float:left
+}
+/*示例4-5 所需添加的样式*/
+#pTip
+{
+	font-weight:bold; 
+	clear:both;
+	text-align:center
+}

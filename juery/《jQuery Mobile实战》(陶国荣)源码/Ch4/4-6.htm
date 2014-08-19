@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile 单选按钮</title>
+    <meta name="viewport" content="width=device-width,
+           initial-scale=1" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            //获取单选按钮选择时的值
+            $("input[type='radio']").bind("change",
+            function(event, ui) {
+                $("#pTip").html(this.value);
+            })
+        })
+    </script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header"><h1>头部栏</h1></div>
+    <div data-role="content">
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="radio" name="rdoA" id="rdo1" value="1" 
+               checked="checked" />
+     	<label for="rdo1">A</label>
+     	<input type="radio" name="rdoA" id="rdo2" value="2"  />
+     	<label for="rdo2">B</label>
+     	<input type="radio" name="rdoA" id="rdo3" value="3"  />
+     	<label for="rdo3">C</label>
+      </fieldset>
+	  <p id="pTip"></p>
+　  </div>
+    <div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>     
+  </div>
+</body>
+</html>
+

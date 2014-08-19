@@ -1,0 +1,7 @@
+﻿/*设置提示元素的样式*/
+p
+{
+	height:23px; line-height:23px;
+	padding:5px; text-align:center; 
+	border:solid 2px #666
+}

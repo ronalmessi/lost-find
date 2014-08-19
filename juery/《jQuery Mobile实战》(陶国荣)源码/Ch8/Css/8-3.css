@@ -1,0 +1,23 @@
+﻿.p  /*p元素基本样式*/
+ {
+ 	text-align:center;
+	border:solid 1px #ccc;
+	font-size:14px;
+	line-height:28px
+}         
+.p0 /*p元素随机样式*/
+{
+	background: transparent url(images/bg-0.png) 0 0 repeat 
+}
+.p1
+{
+	background: transparent url(images/bg-1.png) 0 0 repeat 
+}
+.p2
+{
+	background: transparent url(images/bg-2.png) 0 0 repeat 
+}
+.p3
+{
+	background: transparent url(images/bg-3.png) 0 0 repeat 
+}

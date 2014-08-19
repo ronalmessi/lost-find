@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile 多容器页面结构</title>
+    <meta name="viewport" content="width=device-width,
+           initial-scale=1" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+</head>
+<body>
+  <div data-role="page">
+　　<div data-role="header"><h1>天气预报</h1></div>
+　　<div data-role="content">
+　　     <p><a href="#w1">今天</a> | <a href="#">明天</a></p>
+　　</div>
+　　<div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+　
+　<div data-role="page" id="w1" data-add-back-btn="true">
+　　<div data-role="header"><h1>今天天气</h1></div>
+　　<div data-role="content">
+　　     <p>4～-7℃<br />晴转多云<br />微风</p>
+　　</div>
+　　<div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>
+　</div>
+</body>
+</html>
+

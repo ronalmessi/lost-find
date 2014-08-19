@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile 复选框</title>
+    <meta name="viewport" content="width=device-width,
+           initial-scale=1" /> 
+    <link  href="Css/jquery.mobile-1.0.1.min.css" 
+           rel="Stylesheet" type="text/css" />
+    <script src="Js/jquery-1.6.4.js" 
+           type="text/javascript"></script>
+    <script src="Js/jquery.mobile-1.0.1.js" 
+           type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            var strChangeVal = "";
+            var objCheckBox = $("input[type='checkbox']");
+            //设置复选框选择时的值
+            objCheckBox.bind("change", function(event, ui) {
+                if (this.checked) {
+                    strChangeVal += this.value + ",";
+                } else {
+                    strChangeVal = GetChangeValue(objCheckBox);
+                }
+                $("#pTip").html(strChangeVal);
+            })
+        })
+        //获取全部选择按钮的值
+        function GetChangeValue(v) {
+            var strS = "";
+            v.each(function() {
+                if (this.checked) {
+                    strS += this.value + ",";
+                }
+            });
+            return strS;
+        }
+    </script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header"><h1>头部栏</h1></div>
+    <div data-role="content">
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="checkbox" name="chkA" id="chk1" value="1" />
+     	<label for="chk1">A</label>
+     	<input type="checkbox" name="chkA" id="chk2" value="2"  />
+     	<label for="chk2">B</label>
+     	<input type="checkbox" name="chkA" id="chk3" value="3"  />
+     	<label for="chk3">C</label>
+      </fieldset>
+	  <p id="pTip"></p>
+　  </div>
+    <div data-role="footer"><h4>©2012 rttop.cn studio</h4></div>     
+  </div>
+</body>
+</html>
+

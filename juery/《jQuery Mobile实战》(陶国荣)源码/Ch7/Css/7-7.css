@@ -1,0 +1,11 @@
+﻿/*设置示例区的样式*/
+.dchange
+{
+	float:left;padding:5px
+}
+.dchange .dtip
+{
+    border:solid 1px #ccc;color:#666;
+    background-color:#eee; padding:3px;
+    height:23px; line-height:23px
+ }
