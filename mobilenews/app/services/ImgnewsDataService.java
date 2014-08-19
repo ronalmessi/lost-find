@@ -9,9 +9,9 @@ public class ImgnewsDataService extends BaseService {
 
 	public static ImgnewsDataService instance = new ImgnewsDataService();
 
-//	public List<Imgnews_data> findImgnewsDataByNewsData(News_data newsdata) {
-//		List<Imgnews_data> imgnewsDataList = Imgnews_data.find(
-//				this.getLogicDelSecuritySql("newsdata=?"), newsdata).first();
-//		return imgnewsData;
-//	}
+	public Imgnews_data findImgnewsDataByNewsData(News_data newsdata) {
+		Imgnews_data imgnewsData = Imgnews_data.find(
+				this.getLogicDelSecuritySql("news=?"), newsdata).first();
+		return imgnewsData;
+	}
 }

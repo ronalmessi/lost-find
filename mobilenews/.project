@@ -15,7 +15,7 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.playframework.playclipse.playNature</nature>
 	</natures>
-	<linkedResources><link><name>japid</name><type>2</type><location>C:/play/modules/japid/app</location></link>
-<link><name>conf/japid</name><type>2</type><location>C:/play/modules/japid/conf</location></link>
+	<linkedResources><link><name>japid</name><type>2</type><location>D:/play/modules/japid/app</location></link>
+<link><name>conf/japid</name><type>2</type><location>D:/play/modules/japid/conf</location></link>
 </linkedResources>
 </projectDescription>

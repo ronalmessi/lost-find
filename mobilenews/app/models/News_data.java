@@ -9,7 +9,7 @@ import javax.persistence.OneToOne;
 import play.db.jpa.Model;
 
 @Entity
-public class News_data extends Model{
+public class News_data extends BaseModel{
 
 	public int news_id;
 	

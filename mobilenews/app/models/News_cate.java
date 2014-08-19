@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import play.db.jpa.Model;
 
 @Entity
-public class News_cate extends Model {
+public class News_cate extends BaseModel {
 
 	public int news_cateid;
 	

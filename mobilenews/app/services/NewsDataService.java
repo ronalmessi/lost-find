@@ -15,5 +15,14 @@ public class NewsDataService extends BaseService {
 		return newsData;
 
 	}
+	
+	
+	public List<News_data> findNewsDataByNewsId(int newsId) {
+
+		List<News_data> newsData = News_data.find(
+				this.getLogicDelSecuritySql("news_id=?"), newsId).fetch();
+		return newsData;
+
+	}
 
 }
